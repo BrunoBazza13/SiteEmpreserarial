@@ -1,0 +1,199 @@
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.menu-items ul, .menu-items li {
+    display: inline-block;
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+
+.cadastrar {
+    background-color: #8E2424;
+    color: white;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+
+.texto-sobre-nos, .texto-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.texto-sobre-nos p, .texto-3 p, .colaboradores p, .colaboradores h1 {
+    margin: 0;
+    padding: 0;
+
+}
+
+.topico3{
+    color: #9FA3B0;
+}
+
+.texto-numeros {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+h1 {
+    color: #8E2424;
+}
+
+.titulo-1, .titulo-2 {
+    color: black;
+}
+
+
+.topico1, .topico4 {
+    color: #8E2424;
+    border-radius: 10px;
+    background-color: #F9F4F4;
+    padding: 4px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 30%;
+    margin-top: 1px;
+    
+}
+
+.sla {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+
+.sla li {
+    position: relative;
+    right: 6%;
+    color: #9FA3B0;
+    display: inline-block;
+    margin: 5px;
+
+}
+
+
+.Border-radio {
+    border-radius: 10px;
+    background-color: white;
+    padding-inline-end: 300px;
+    margin-top: 10px;
+    padding-inline-start: 10px;
+    border: 2px solid #EAECF0;
+}
+
+.designer, .desenvolvimento {
+    margin-top: 30px;
+}
+
+.imagem1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.titulo6, .titulo5 {
+    color: black;
+}
+
+
+.colaboradores {
+    justify-content: center;
+    text-align: center;
+    margin-top: 850px;
+    background-color: #FDF8F8;
+    color: #9B3E3E;
+    padding: 50px;
+    
+    
+
+}
+
+.colaboradores .topico8{
+    color: #9FA3B0;
+}
+
+.colaboradores .topico6 {
+    padding: 20px;
+}
+
+
+.colaboradores .titulo5 {
+    color: black;
+    display: block;
+    padding: 0; 
+}
+
+
+.colaboradores .titulo6 {
+    color: black;
+    margin: 0; 
+}
+
+
+.colaboradores img {
+    width: 70px;
+    padding: 20px; 
+}
+
+
+.acompanhe-oportunidades {
+    background-color: #F9FAFB;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto; 
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.inserir-email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.e-mail {
+    padding: 10px;
+    border: 2px solid #EAECF0;
+    border-radius: 10px;
+    width: 200px; 
+}
+
+.cadastro2 {
+    background-color: #8E2424;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    margin-left: 10px; 
+}
+
+.cadastro2:hover {
+    background-color: #6b1a1a;
+}
